@@ -79,7 +79,6 @@ post-patch:
 	${RM} ${WRKSRC}/overlays/vc4-kms-v3d-pi5.dtbo
 	${RM} ${WRKSRC}/overlays/w1-gpio-pi5.dtbo
 	${RM} ${WRKSRC}/overlays/w1-gpio-pullup-pi5.dtbo
-	${RM} ${WRKSRC}/overlays/w1-gpio-pi5.dtbo
 
 do-install:
 	${MKDIR} ${STAGEDIR}/${INSTALL_DIR}
