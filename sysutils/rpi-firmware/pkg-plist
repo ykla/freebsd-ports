@@ -68,7 +68,6 @@
 %%DATADIR%%/overlays/audiosense-pi.dtbo
 %%DATADIR%%/overlays/audremap.dtbo
 %%DATADIR%%/overlays/balena-fin.dtbo
-%%DATADIR%%/overlays/bcm2712d0.dtbo
 %%DATADIR%%/overlays/camera-mux-2port.dtbo
 %%DATADIR%%/overlays/camera-mux-4port.dtbo
 %%DATADIR%%/overlays/cap1106.dtbo
