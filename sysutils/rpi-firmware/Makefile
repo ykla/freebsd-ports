@@ -42,6 +42,44 @@ post-patch:
 	${RM} ${WRKSRC}/boot/kernel7l.img
 	${RM} ${WRKSRC}/boot/kernel8.img
 	${RM} ${WRKSRC}/boot/kernel_2712.img
+	${RM} ${WRKSRC}/boot/bcm2712-rpi-5-b.dtb
+	${RM} ${WRKSRC}/boot/bcm2712-rpi-cm5-cm4io.dtb
+	${RM} ${WRKSRC}/boot/bcm2712-rpi-cm5-cm5io.dtb
+	${RM} ${WRKSRC}/boot/bcm2712-rpi-cm5l-cm4io.dtb
+	${RM} ${WRKSRC}/boot/bcm2712-rpi-cm5l-cm5io.dtb
+	${RM} ${WRKSRC}/boot/bcm2712d0-rpi-5-b.dtb
+	${RM} ${WRKSRC}/overlays/bcm2712d0.dtbo
+	${RM} ${WRKSRC}/overlays/disable-bt-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/disable-wifi-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/i2c0-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/i2c1-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/i2c2-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/i2c3-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/imx500-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/midi-uart0-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/midi-uart1-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/midi-uart2-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/midi-uart3-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/midi-uart4-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/pcie-32bit-dma-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/pciex1-compat-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/pisound-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/sdio-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi2-1cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi2-2cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi3-1cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi3-2cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi5-1cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/spi5-2cs-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/uart0-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/uart1-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/uart2-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/uart3-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/uart4-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/vc4-kms-v3d-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/w1-gpio-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/w1-gpio-pullup-pi5.dtbo
+	${RM} ${WRKSRC}/overlays/w1-gpio-pi5.dtbo
 
 do-install:
 	${MKDIR} ${STAGEDIR}/${INSTALL_DIR}
